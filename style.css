@@ -162,3 +162,18 @@ body {
     font-size: 12px;
   }
 }
+
+@media (max-width: 600px) {
+
+  /* 卡片容器改为纵向 */
+  .projects-container, .blog-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card, .blog-card {
+    width: 90%;   /* 占屏幕 90%，自动适配 */
+    padding: 16px;
+  }
+
+}
